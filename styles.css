@@ -1,101 +1,95 @@
 body{font-family:sans-serif;
-  font-size:20px;
-}
-
-p{
-margin-bottom:45px;
-}
-
-h1{font-weight:500;
-font-family:sans-serif;
-font-size:30px;
-}
-
-.author a{
-  color:grey;
-  text-decoration:none;
+    font-size:20px;
+  }
+  
+  p{
+  margin-bottom:45px;
+  }
+  
+  h1{font-weight:500;
+  }
+  
+  .author a{
+    color:grey;
+    text-decoration:none;
+    font-size:15px;
+    padding:10px;
+  }
+  
+  .image img{padding-top:10px;
+  }
+  
+  .image p{color:grey;
   font-size:15px;
-  padding:10px;
-  margin-top:0px;
-}
-
-.author img{margin-bottom:-25px;
-}
-
-.image img{padding-top:30px;
-margin-bottom:-5px;
-}
-
-.image p{color:grey;
-font-family:sans-serif;
-font-size:15px;
-margin-bottom:25px
-}
-
-.paragraph1 {font-weight:700;
-}
-
-.paragraph6 span{font-weight:700;
-}
-
- ol {list-style: none; counter-reset: li}
-.grades li {counter-increment: li}
-.grades li::before {content: counter(li); color: blue;
- display: inline-block; width: 1em;       margin-left: -1.5em;
-  margin-right: 0.5em;
-}
-
-.grades li{padding-left:100px;
-  padding-bottom:25px
-}
-
-.medals li {list-style:none;
-}
-
-.medals li::before {content: "-"; color: blue;
-  display: inline-block; width: 1em;
-  margin-left: -1em;
-}
-
-.medals span {font-weight:700;
-}
-
-.medals {padding-left:120px;
-padding-bottom:25px;
-}
-
-.paragraph9 span{font-weight:700;}
-
-h3::before {content: "-"; color: blue;
-  display: inline-block; width: 1em;
-  margin-left: -1em;
-}
-h3{padding-left:95px}
-
-.medalstotal li {counter-increment: li;
-}
-
-.medalstotal li::before {content: counter(li); color: blue;
- display: inline-block; width: 1em;       margin-left: -1.5em;
-  margin-right: 0.5em;
-}
-
-.medalstotal li{padding-left:100px;
-  padding-bottom:25px
-}
-
-.shovidomo li{list-style:none;
-}
-.shovidomo li::before {content: "-"; color: blue;
-  display: inline-block; width: 1em;
-  margin-left: -1em;
-}
-
-.shovidomo li{padding-left:90px;
-  padding-bottom:25px
-}
-
-.shovidomo a{color:black;
-  text-decoration-color:green;
-}
-
+  margin-bottom:30px
+  }
+  
+  .paragraph1 {font-weight:700;
+  }
+  
+  .paragraph6 span{font-weight:700;
+  }
+  
+   ol {list-style: none; counter-reset: li}
+  .grades li {counter-increment: li}
+  .grades li::before {content: counter(li); color: blue;
+   display: inline-block; width: 14px; 
+    margin-right:5px;
+  }
+  
+  .grades li{padding-left:90px;
+    padding-bottom:25px
+  }
+  
+  .medals li {list-style:none;
+  }
+  
+  .medals li::before {content: "-"; color: blue;
+    display: inline-block; width: 14px; 
+    margin-right:5px;
+  }
+  
+  .medals span {font-weight:700;
+  }
+  
+  .medals li{padding-left:90px;
+  padding-bottom:25px;
+  }
+  
+  .paragraph9 span{font-weight:700;
+  }
+  
+  h3::before {content: "-"; color: blue;
+    display: inline-block; width: 14px; 
+    margin-right:5px;
+  }
+  
+  h3{padding-left:95px
+  }
+  
+  .medalstotal li {counter-increment: li;
+  }
+  
+  .medalstotal li::before {content: counter(li); color: blue;
+  display: inline-block; width: 14px; 
+  margin-right:5px;
+  }
+  
+  .medalstotal li{padding-left:90px;
+    padding-bottom:25px
+  }
+  
+  .shovidomo li{list-style:none;
+  }
+  .shovidomo li::before {content: "-"; color: blue;
+  display: inline-block; width: 14px; 
+    margin-right:5px;
+  }
+  
+  .shovidomo li{padding-left:90px;
+    padding-bottom:25px
+  }
+  
+  .shovidomo a{color:black;
+    text-decoration-color:green;
+  }
